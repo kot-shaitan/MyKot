@@ -34,7 +34,7 @@ public class Run : MonoBehaviour
         {
             animator.SetFloat("speed", 5);
             capybara.velocity = Vector2.left * WalkingSpeed;
-            capy.flipX = true;
+            capy.flipX = false;
         }
         else {
             animator.SetFloat("speed", 0);
